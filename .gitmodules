@@ -1,3 +1,4 @@
-[submodule "themes/kube"]
-	path = themes/kube
-	url = https://github.com/jeblister/kube.git
+[submodule "public"]
+	path = public
+	url = git@github.com:WeIgniteTech/weignitetech.github.io.git
+	branch = master
