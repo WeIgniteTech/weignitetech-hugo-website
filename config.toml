@@ -9,7 +9,7 @@ Paginate = 4
   RSSLink = "/index.xml"
   author = "We Ignite Tech" # add your company name
   github = "https://github.com/WeIgniteTech/the-weignitetech-program" # add your github profile name
-  twitter = "" # add your twitter profile
+  #twitter = "" # add your twitter profile
   email = "hello@weignite.tech"
 
 [[menu.main]]
