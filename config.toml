@@ -1,26 +1,98 @@
-baseURL = "/"
+baseURL = "https://www.example.com"
 languageCode = "en-us"
 title = "We Ignite Tech"
-theme = "kube"
-description = "The We Ignite Tech website"
-Paginate = 4
+theme = "infinity-hugo"
 
-[Params]
-  RSSLink = "/index.xml"
-  author = "We Ignite Tech" # add your company name
-  github = "https://github.com/WeIgniteTech/the-weignitetech-program" # add your github profile name
-  #twitter = "" # add your twitter profile
-  email = "hello@weignite.tech"
+[params]
 
-[[menu.main]]
-    name = "Docs"
-    weight = -100
-    url = "/docs/"
-[[menu.main]]
-    name = "Blog"
-    weight = -100
-    url = "/blog/"
-[[menu.main]]
-    name = "Faq"
-    weight = -100
-    url = "/faq/"
+    # Navigation
+    [params.navigation]
+        logo = "images/WIT-logo3.png"
+        home = "Home"
+        about = "About"
+        service = "The program"
+        contact = "Contact"
+
+    # Hero Area
+    [params.hero]
+        enable      = true
+        bg          = "images/header-bg3.jpg"
+        title       = "WE IGNITE TECH"
+        subtitle    = "The We Ignite Tech program is coming back soon!"
+        btnText     = "Tell me more!"
+        countdownYear = "2019"
+        countdownMonth = "06"
+        countdownDay  = "01"
+
+    # About Section
+    [params.about]
+        enable      = true
+        heading     = "The We Ignite Tech program is a three month evening course aiming to get people with a tech background closer to the norwegian IT market"
+        description = "The first iteration of the We Ignite Tech programs has just finished. Twelve participants just graduated and some of them have already steped into the IT market. Enlighted by this positive experience, we are planning a new iteration of the program"
+
+        [[params.about.sliderItem]]
+            image   = "images/about/WIT-1.jpg"
+        [[params.about.sliderItem]]
+            image   = "images/about/WIT-2.jpg"
+        [[params.about.sliderItem]]
+            image   = "images/about/WIT-3.jpg"
+        [[params.about.sliderItem]]
+            image   = "images/about/WIT-2.jpg"
+
+    
+    # Service Section
+    [params.service]
+        enable      = true
+        title       = "A step closer to your IT career in Norway"
+        subtitle    = ""
+        [[params.service.serviceItem]]
+            # give icon(themefisher icon font), title, description
+            # more about themefisher icon font visit https://github.com/themefisher/themefisher-font
+            # use delay for reveal items one by one
+            icon    = "tf-strategy"
+            title   = "Accurate technologies"
+            description = "The program is based on modern and well used technologies (programming languages, frameworks, tools and metodologies)"
+            delay   = "0s"
+
+        [[params.service.serviceItem]]
+            # give icon(themefisher icon font), title, description
+            # more about themefisher icon font visit https://github.com/themefisher/themefisher-font
+            # use delay for reveal items one by one
+            icon    = "tf-circle-compass"
+            title   = "Industry standards"
+            description = "Course material is based on our teachers experience from the field in the norwegian and international IT industry"
+            delay   = "0.2s"
+
+        [[params.service.serviceItem]]
+            # give icon(themefisher icon font), title, description
+            # more about themefisher icon font visit https://github.com/themefisher/themefisher-font
+            # use delay for reveal items one by one
+            icon    = "tf-anchor2"
+            title   = "Practical learning"
+            description = "The participants of the program improve both their technical and team-work skills by doing concrete projects and delivering software"
+            delay   = "0.4s"
+
+        [[params.service.serviceItem]]
+            # give icon(themefisher icon font), title, description
+            # more about themefisher icon font visit https://github.com/themefisher/themefisher-font
+            # use delay for reveal items one by one
+            icon    = "tf-globe"
+            title   = "Personal coaching"
+            description = "The program is also about improving the participants personal skills through dedicate courses and personal coaching"
+            delay   = "0.6s"
+
+    
+    
+    # Call to Action Section
+    [params.cta]
+        enable      = true
+        bg          = "images/call-to-action2.JPG"
+        title       = "Subscribe to our mailing list"
+        subtitle    = "You will be noticed of the latest informations about the program and We Ignite Tech"
+
+    [params.contact]
+        enable      = true
+        title       = "Get In Touch"
+        subtitle    = "Are you a potential participant, a future partner or a person willing to help in the program? Please leave us a comment, we would like to here from you!"
+
+
