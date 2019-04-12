@@ -37,7 +37,12 @@ theme = "infinity-hugo"
         [[params.about.sliderItem]]
             image   = "images/about/WIT-3.jpg"
         [[params.about.sliderItem]]
-            image   = "images/about/WIT-2.jpg"
+            image   = "images/about/WIT-4.jpg"
+        [[params.about.sliderItem]]
+            image   = "images/about/WIT-5.jpg"
+        [[params.about.sliderItem]]
+            image   = "images/about/WIT-6.jpg"
+
 
     
     # Service Section
