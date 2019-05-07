@@ -99,6 +99,6 @@ theme = "infinity-hugo"
     [params.contact]
         enable      = true
         title       = "Get In Touch"
-        subtitle    = "Are you a potential participant, a future partner or a person willing to help in the program? Please leave us a comment, we would like to here from you!"
+        subtitle    = "Are you a potential participant, a future partner or a person willing to help in the program? Please leave us a comment, we would like to hear from you!"
 
 
