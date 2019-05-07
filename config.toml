@@ -7,7 +7,7 @@ theme = "infinity-hugo"
 
     # Navigation
     [params.navigation]
-        logo = "images/WIT-logo3.png"
+        logo = "images/logo-7-2018-transp-2-resized.png"
         home = "Home"
         about = "About"
         service = "The program"
