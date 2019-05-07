@@ -18,7 +18,8 @@ theme = "infinity-hugo"
         enable      = true
         bg          = "images/header-bg3.jpg"
         title       = "WE IGNITE TECH"
-        subtitle    = "The We Ignite Tech program is coming back soon!"
+        subtitle    = "Applications for the We Ignite Tech program will open on 1st June 2019"
+
         btnText     = "Tell me more!"
         countdownYear = "2019"
         countdownMonth = "06"
