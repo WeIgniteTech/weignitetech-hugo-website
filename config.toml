@@ -29,7 +29,7 @@ theme = "infinity-hugo"
     [params.about]
         enable      = true
         heading     = "The We Ignite Tech program is a three month evening course aiming to get people with a tech background closer to the norwegian IT market"
-        description = "The first iteration of the We Ignite Tech programs has just finished. Twelve participants just graduated and some of them have already steped into the IT market. Enlighted by this positive experience, we are planning a new iteration of the program"
+        description = "The first iteration of the We Ignite Tech program has just finished. Twelve participants just graduated and some of them have already steped into the IT market. Enlighted by this positive experience, we are planning a new iteration of the program"
 
         [[params.about.sliderItem]]
             image   = "images/about/WIT-1.jpg"
@@ -57,7 +57,7 @@ theme = "infinity-hugo"
             # use delay for reveal items one by one
             icon    = "tf-strategy"
             title   = "Accurate technologies"
-            description = "The program is based on modern and well used technologies (programming languages, frameworks, tools and metodologies)"
+            description = "The program is based on modern and well used technologies (programming languages, frameworks, tools and methodologies)"
             delay   = "0s"
 
         [[params.service.serviceItem]]
