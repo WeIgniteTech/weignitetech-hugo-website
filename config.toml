@@ -83,8 +83,8 @@ theme = "infinity-hugo"
             # more about themefisher icon font visit https://github.com/themefisher/themefisher-font
             # use delay for reveal items one by one
             icon    = "tf-globe"
-            title   = "Personal coaching"
-            description = "The program is also about improving the participants personal skills through dedicate courses and personal coaching"
+            title   = "Individual coaching"
+            description = "The program is also about improving the participants personal skills through dedicated course sessions and individual coaching"
             delay   = "0.6s"
 
     
