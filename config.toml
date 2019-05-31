@@ -7,7 +7,7 @@ theme = "infinity-hugo"
 
     # Navigation
     [params.navigation]
-        logo = "images/logo-7-2018-transp-2-resized.png"
+        logo = "images/wit4530.svg"
         home = "Home"
         about = "About"
         service = "The program"
@@ -18,11 +18,11 @@ theme = "infinity-hugo"
         enable      = true
         bg          = "images/header-bg3.jpg"
         title       = "WE IGNITE TECH"
-        subtitle    = "Applications for the We Ignite Tech program will open on 1st June 2019"
+        subtitle    = "You can apply now for the We Ignite Tech program. The deadline for submissions is 30th june."
 
-        btnText     = "Tell me more!"
+        btnText     = "Apply here!"
         countdownYear = "2019"
-        countdownMonth = "06"
+        countdownMonth = "07"
         countdownDay  = "01"
 
     # About Section
