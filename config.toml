@@ -18,11 +18,11 @@ theme = "infinity-hugo"
         enable      = true
         bg          = "images/header-bg3.jpg"
         title       = "WE IGNITE TECH"
-        subtitle    = "You can apply now for the We Ignite Tech program. The deadline for submissions is 30th june."
+        subtitle    = "You can apply now for the We Ignite Tech program. The deadline for submissions is 31st July."
 
         btnText     = "Apply here!"
         countdownYear = "2019"
-        countdownMonth = "07"
+        countdownMonth = "08"
         countdownDay  = "01"
 
     # About Section
