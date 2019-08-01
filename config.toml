@@ -18,12 +18,12 @@ theme = "infinity-hugo"
         enable      = true
         bg          = "images/header-bg3.jpg"
         title       = "WE IGNITE TECH"
-        subtitle    = "You can apply now for the We Ignite Tech program. The deadline for submissions is 31st July."
+        subtitle    = "A step closer to your IT career in Norway"
 
-        btnText     = "Apply here!"
-        countdownYear = "2019"
-        countdownMonth = "08"
-        countdownDay  = "01"
+        #btnText     = "Apply here!"
+        #countdownYear = "2019"
+        #countdownMonth = "07"
+        #countdownDay  = "01"
 
     # About Section
     [params.about]
