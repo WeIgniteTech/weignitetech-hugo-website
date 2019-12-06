@@ -1,0 +1,19 @@
+enable : true
+heading : Our
+headingSpan : Results
+title : 50% of the participants are now in the norwegian IT industry
+content : Three month after the first iteration of the program, 50% of the participants had a job position or a training contract
+image : images/about/company-growth.png
+skillItem :
+  - itemNumber : 92%
+    itemName :  Completed the program
+    itemPercent : 92%
+
+  - itemNumber : 95%
+    itemName :  Statisfaction towards the program
+    itemPercent : 95%
+
+  - itemNumber : 100%
+    itemName :  Participants called to job interview
+    itemPercent : 100%
+

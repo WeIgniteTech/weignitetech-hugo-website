@@ -1,0 +1,42 @@
+enable : true
+heading : Our
+headingSpan : Partners
+filterList :
+  - filterType : financial
+    filterTitle : Financial support
+    
+  - filterType : teaching
+    filterTitle : Teaching partner
+    
+  - filterType : network
+    filterTitle : Network
+
+portfolioItem :
+  - types : financial
+    image : images/portfolio/portfolio-1-oslo-kommune_2.jpg
+    icon : tf-ion-android-search
+    URL : https://www.oslo.kommune.no
+    title : Oslo kommune
+    description : Financial supports via Integreringstiltak for flyktninger
+
+  - types : teaching
+    image : images/portfolio/portfolio-3-dnb_2.png
+    icon : tf-ion-android-search
+    URL : https://www.dnb.no/om-oss
+    title : DnB
+    description : Offers a mentor program 
+    
+  - types : teaching
+    image : images/portfolio/portfolio-2-finn_2.png
+    icon : tf-ion-android-search
+    URL : https://hjemmehos.finn.no/hc/no
+    title : Finn
+    description : Provides on-site tech classes
+    
+  - types : network
+    image : images/portfolio/portfolio-4-SoCentral_4.png
+    icon : tf-ion-android-search
+    URL : https://www.socentral.no/om-oss/
+    title : SoCentral
+    description : Start-up incubator is an ideal work place
+    

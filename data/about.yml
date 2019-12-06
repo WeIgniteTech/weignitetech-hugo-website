@@ -1,0 +1,15 @@
+enable : true
+heading : The
+headingSpan : We Ignite Tech Program
+aboutItem : 
+- icon : tf-tools
+  title : Web development
+  content : We teach web development through accurate and modern technologies
+
+- icon : tf-strategy
+  title : Soft skills
+  content : About 25% of the program is dedicated to personal improvement and communication
+
+- icon : tf-anchor2
+  title : Project
+  content : Each participant to the program will work on a project within a team

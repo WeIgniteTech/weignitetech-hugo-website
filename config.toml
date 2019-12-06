@@ -1,104 +1,143 @@
 baseURL = "https://weignitetech.github.io"
 languageCode = "en-us"
+DefaultContentLanguage = "en"
 title = "We Ignite Tech"
-theme = "infinity-hugo"
+theme = "meghna-hugo"
+summaryLength = 10
 
+[permalinks]
+  pages = "/:section/:title/"
+
+[taxonomies]
+  author = "author"
+  category = "categories"
+  tag = "tags"
+
+# Menu
+[menu]
+    [[menu.nav]]
+    name = "Program"
+    URL = "about"
+    weight = 2
+
+    [[menu.nav]]
+    name = "Vision"
+    URL = "services"
+    weight = 3
+
+    [[menu.nav]]
+    name = "Team"
+    URL = "our-team"
+    weight = 4
+
+    [[menu.nav]]
+    name = "Partners"
+    URL = "portfolio"
+    weight = 5
+
+    #[[menu.nav]]
+    #name = "Partnership"
+    #URL = "pricing"
+    #weight = 6
+
+    #[[menu.nav]]
+    #name = "Blog"
+    #URL = "blog"
+    #weight = 7
+
+    [[menu.nav]]
+    name = "Contact"
+    URL = "contact-us"
+    weight = 8
+
+# Site params
 [params]
+home= "Home"
+#logo = "images/logo.png"
+logo = "images/wit4530.svg"
+gmapAPI = "https://maps.googleapis.com/maps/api/js?key=AIzaSyCcABaamniA6OL5YvYSpB3pFMNrXwXnLwU&libraries=places"
+# Meta data
+description = "The We Ignite Tech program"
+author = "We Ignite Tech"
+# Google Analitycs
+googleAnalitycsID = "Your ID"
+custom_css = ["css/custom.css"]
 
-    # Navigation
-    [params.navigation]
-        logo = "images/wit4530.svg"
-        home = "Home"
-        about = "About"
-        service = "The program"
-        contact = "Contact"
+    # Banner Section
+    [params.banner]
+    enable = true
+    bgImage = "images/slider/hero-area.jpg"
+    icon = "tf-ion-play"
+    heading = "We Ignite Tech"
+    content= "Providing IT talents and diversity to Norwegian businesses"
+    btn = true
+    btn1Text="Enroll in the program"
+    btn1URL="#enroll"
+    btn2Text="Hire a web developer"
+    btn2URL="#contact-us"
 
-    # Hero Area
-    [params.hero]
-        enable      = true
-        bg          = "images/header-bg3.jpg"
-        title       = "WE IGNITE TECH"
-        subtitle    = "A step closer to your IT career in Norway"
-
-        #btnText     = "Apply here!"
-        #countdownYear = "2019"
-        #countdownMonth = "07"
-        #countdownDay  = "01"
-
-    # About Section
-    [params.about]
-        enable      = true
-        heading     = "The We Ignite Tech program is a three month evening course aiming to get people with a tech background closer to the norwegian IT market"
-        description = "The first iteration of the We Ignite Tech program has just finished. Twelve participants just graduated and some of them have already steped into the IT market. Enlighted by this positive experience, we will start a new session of the program in september 2019"
-
-        [[params.about.sliderItem]]
-            image   = "images/about/WIT-1.jpg"
-        ##[[params.about.sliderItem]]
-        ##    image   = "images/about/WIT-2.jpg"
-        ##[[params.about.sliderItem]]
-        ##    image   = "images/about/WIT-3.jpg"
-        ##[[params.about.sliderItem]]
-        ##    image   = "images/about/WIT-4.jpg"
-        ##[[params.about.sliderItem]]
-        ##    image   = "images/about/WIT-5.jpg"
-        ##[[params.about.sliderItem]]
-        ##    image   = "images/about/WIT-6.jpg"
-
-
-    
-    # Service Section
-    [params.service]
-        enable      = true
-        title       = "A step closer to your IT career in Norway"
-        subtitle    = ""
-        [[params.service.serviceItem]]
-            # give icon(themefisher icon font), title, description
-            # more about themefisher icon font visit https://github.com/themefisher/themefisher-font
-            # use delay for reveal items one by one
-            icon    = "tf-strategy"
-            title   = "Accurate technologies"
-            description = "The program is based on modern and well used technologies (programming languages, frameworks, tools and methodologies)"
-            delay   = "0s"
-
-        [[params.service.serviceItem]]
-            # give icon(themefisher icon font), title, description
-            # more about themefisher icon font visit https://github.com/themefisher/themefisher-font
-            # use delay for reveal items one by one
-            icon    = "tf-circle-compass"
-            title   = "Industry standards"
-            description = "Course material is based on our teachers experience from the field in the norwegian and international IT industry"
-            delay   = "0.2s"
-
-        [[params.service.serviceItem]]
-            # give icon(themefisher icon font), title, description
-            # more about themefisher icon font visit https://github.com/themefisher/themefisher-font
-            # use delay for reveal items one by one
-            icon    = "tf-anchor2"
-            title   = "Practical learning"
-            description = "The participants of the program improve both their technical and team-work skills by doing concrete projects and delivering software"
-            delay   = "0.4s"
-
-        [[params.service.serviceItem]]
-            # give icon(themefisher icon font), title, description
-            # more about themefisher icon font visit https://github.com/themefisher/themefisher-font
-            # use delay for reveal items one by one
-            icon    = "tf-globe"
-            title   = "Individual coaching"
-            description = "The program is also about improving the participants personal skills through dedicated course sessions and individual coaching"
-            delay   = "0.6s"
-
-    
-    
-    # Call to Action Section
+    # call to action
     [params.cta]
-        enable      = true
-        bg          = "images/call-to-action2.JPG"
-        title       = "Subscribe to our mailing list"
-        subtitle    = "You will be noticed of the latest informations about the program and We Ignite Tech"
+    enable = true
+    title = "Submissions are now closed"
+    content = "The submissions to the program are now closed for the current session. But we are planning a new session in the begining of 2020. If you are interested, please contact us."
+    btnURL = "#contact-us"
+    btnText = "Contact us"
 
-    [params.contact]
-        enable      = true
-        title       = "Get In Touch"
-        subtitle    = "Are you a potential participant, a future partner or a person willing to help in the program? Please leave us a comment, we would like to hear from you!"
+    # counter
+    [params.counter]
+    enable = true
+    bgImage = "images/backgrounds/bg-1.jpg"
+        [[params.counter.counterItem]]
+        title = "Participants"
+        icon = "tf-ion-android-happy"
+        count = "12"
 
+        [[params.counter.counterItem]]
+        title = "Teaching hours"
+        icon = "tf-ion-archive"
+        count = "1260"
 
+        [[params.counter.counterItem]]
+        title = "Delivered projects"
+        icon = "tf-ion-briefcase"
+        count = "3"
+
+        [[params.counter.counterItem]]
+        title = "External speakers"
+        icon = "tf-ion-document-text"
+        count = "10"
+
+    # footer
+    [params.footer]
+        copyright = "Themefisher Team"
+        copyrightURL = "http://www.themefisher.com"
+
+        # social Icons
+         [[params.footer.socialIcon]]
+         icon = "tf-ion-social-facebook"
+         url = "https://www.facebook.com/We-Ignite-Tech-2434139386820603"
+
+#        [[params.footer.socialIcon]]
+#        icon = "tf-ion-social-twitter"
+#        url = "#"
+
+#        [[params.footer.socialIcon]]
+#        icon = "tf-ion-social-google-outline"
+#        url = "#"
+
+#        [[params.footer.socialIcon]]
+#        icon = "tf-ion-social-youtube"
+#        url = "#"
+
+        [[params.footer.socialIcon]]
+        icon = "tf-ion-social-instagram"
+        url = "https://www.instagram.com/theweignitetechprogram/"
+
+#        [[params.footer.socialIcon]]
+#        icon = "tf-ion-social-dribbble-outline"
+#        url = "#"
+
+#        [[params.footer.socialIcon]]
+#        icon = "tf-ion-social-pinterest-outline"
+#        url = "#"

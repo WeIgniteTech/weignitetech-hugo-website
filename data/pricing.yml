@@ -1,0 +1,32 @@
+enable : true
+heading : Partnership
+headingSpan : Plans
+pricingTable :      
+  - title : Academic content
+    price : NOK 100 000
+    time : per program
+    btnURL : #
+    btnText : Signup
+    plan :
+      - planDetails : Development of academic content
+      - planDetails : Course infrastructure
+      
+  - title : Facility and hospitality
+    price : NOK 50 000
+    time : per program
+    btnURL : #
+    btnText : Signup
+    plan :
+      - planDetails : Rental of course facilities
+      - planDetails : Hospitality expenses
+      
+      
+  - title : Recruit a participant
+    price : NOK 40 000
+    time : per hire
+    btnURL : #
+    btnText : Signup
+    plan :
+      - planDetails : Technical knowledge
+      - planDetails : Communication skills
+      

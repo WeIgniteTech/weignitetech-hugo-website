@@ -1,0 +1,27 @@
+enable : true
+heading : Our
+headingSpan : Vision
+serviceItem :
+  - icon : tf-globe
+    title : Welcome developers
+    content : New-commers to Norway with a software development background are welcome to the We Ignite Tech program 
+    
+  - icon : tf-genius
+    title : Accurate content
+    content : The program is based on modern and well used technologies (programming languages, tools and methodologies)
+
+  - icon : tf-ion-laptop
+    title : Practical learning
+    content : The participants improve both their technical skills and team abilities by doing concrete projects and delivering software
+    
+  - icon : tf-dial
+    title : Coaching
+    content : The participants improve personal skills through dedicated course sessions and individual coaching
+    
+  - icon : tf-target3
+    title : Industry standards
+    content : Course material is based on our teachers experience from the field in the norwegian and international IT industry
+    
+  - icon : tf-lifesaver
+    title : Networking
+    content : We organize on-site visits, workshops and happenings to make the participants and norwegian IT companies meet each others

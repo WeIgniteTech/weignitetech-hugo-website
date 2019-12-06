@@ -1,0 +1,56 @@
+enable : true
+heading : Our
+headingSpan : Team
+teamMember :
+  - image : images/team/profil-bilde-Henrik.png
+    name : Henrik Skjerve
+    designation : Founder & coach
+    description : 
+    socialIcon :
+      - icon : tf-ion-social-facebook
+        url : "#"
+      - icon : tf-ion-social-twitter
+        url : "#"
+      - icon : tf-ion-social-linkedin
+        url : "#"
+
+  - image : images/team/ingar_st_324_327.png
+    name : Ingar Kvalheim
+    designation : Head of Design & coach
+    description : 
+    socialIcon :
+      - icon : tf-ion-social-facebook
+        url : "#"
+      - icon : tf-ion-social-twitter
+        url : "#"
+      - icon : tf-ion-social-linkedin
+        url : "#"
+
+  - image : images/team/mari_st_324_327.png
+    name : Mari Røysheim
+    designation : Head of Recruitment & tech-coach
+    description : 
+    socialIcon :
+      - icon : tf-ion-social-facebook
+        url : "#"
+      - icon : tf-ion-social-twitter
+        url : "#"
+      - icon : tf-ion-social-linkedin
+        url : "#"
+
+  - image : images/team/profil-bilde-Thomas.png
+    name : Thomas Dufourd
+    designation : Co-founder & tech-coach
+    description : 
+      
+  - image : images/team/vinh_st_324_327.png
+    name : Vinh Nguyen
+    designation : Head of Business Development & coach
+    description : 
+    socialIcon :
+      - icon : tf-ion-social-facebook
+        url : "#"
+      - icon : tf-ion-social-twitter
+        url : "#"
+      - icon : tf-ion-social-linkedin
+        url : "#"

@@ -1,0 +1,53 @@
+--- Fonts
+https://fonts.google.com/specimen/Source+Code+Pro?selection.family=Source+Code+Pro 
+https://fonts.google.com/specimen/Roboto+Mono?selection.family=Roboto+Mono
+
+
+--- Pie chart
+https://beautifuldingbats.com/graph-makers/pie-chart-maker
+
+colors: https://coolors.co/1a535c-4ecdc4-f7fff7-ff6b6b-ffe66d 
+
+
+
+
+Background #FFFFFF 
+Text: Fira Mono 28
+#737F8A
+
+Title color: #AFBAC4
+Participants situation after the program
+
+
+In a job position: #69B111
+----
+Haimanott
+Grace
+Hiruth
+Papitha
+
+
+Training: #1A535C
+--------
+Malaz
+Nayyer
+
+Study: #4ECDC4
+-----
+Osman
+Mori
+
+Looking for a jobb: #FFE66D
+------------------
+Jehad
+Berkay
+
+DNF: #FF6B6B
+---
+Ihsan
+
+
+Other activity: #F7FFF7
+-----
+Ali
+

@@ -1,0 +1,13 @@
+enable : true
+image : images/about/about-business-man.jpg
+title : We Ignite Tech
+description : We Ignite Tech is a young start-up of IT professionals with a passion for sharing their knowledge of computer programming. 
+description2 : The We Ignite Tech program is their product. It is a three month evening course aiming to get people with a tech background closer to the norwegian IT market. The program is free and requires full dedication and a good amount of work from the participants. The applicants should have a real motivation and strong interest for computer programming and plan to start a career as a web developer in Norway. It is required to attend all the classes of the program. 
+aboutItem : 
+  - icon : tf-circle-compass
+    title : Programming for the norwegian IT industry
+    content : Our main focus is to provide tailor made courses to the participants of the program. We rely on our experience of IT professionals and deliver accurate technical knowledge through theory and practical courses. 
+    
+  - icon : tf-hotairballoon
+    title : Coaching the participants
+    content : We follow the participants in their effort to find a job on the norwegian IT industry. We help them to enhance their communication skills and their knowledge of the norwegian way of working.  

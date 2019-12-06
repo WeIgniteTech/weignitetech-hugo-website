@@ -1,0 +1,22 @@
+enable : true
+bgImage : images/backgrounds/bg-2.jpg
+testimonialItem :
+  - name : Haimanott
+    image : images/team/client-1.jpg
+    date : Dec 26, 2018
+    content : Lorem ipsum dolor sit amet, consectetur adipisicing elit. Praesentium minima ex, quia error, deserunt voluptatibus repellendus? Incidunt eligendi aliquam repellat molestias, vel sed optio rem odit quis ratione non consequuntur!
+    
+  - name : Nayyer
+    image : images/team/client-2.jpg
+    date : Mars 1, 2019
+    content : Lorem ipsum dolor sit amet, consectetur adipisicing elit. Praesentium minima ex, quia error, deserunt voluptatibus repellendus? Incidunt eligendi aliquam repellat molestias, vel sed optio rem odit quis ratione non consequuntur!
+    
+  - name : Malaz
+    image : images/team/client-3.jpg
+    date : Dec 26, 2018
+    content : Lorem ipsum dolor sit amet, consectetur adipisicing elit. Praesentium minima ex, quia error, deserunt voluptatibus repellendus? Incidunt eligendi aliquam repellat molestias, vel sed optio rem odit quis ratione non consequuntur!
+
+  - name : Papitha
+    image : images/team/client-4.jpg
+    date : Dec 26, 2018
+    content : Lorem ipsum dolor sit amet, consectetur adipisicing elit. Praesentium minima ex, quia error, deserunt voluptatibus repellendus? Incidunt eligendi aliquam repellat molestias, vel sed optio rem odit quis ratione non consequuntur!

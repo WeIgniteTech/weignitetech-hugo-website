@@ -1,0 +1,18 @@
+enable : true
+heading : Contact
+headingSpan : Us
+title : Contact Details
+content : We are based at SoCentral, in Sentralen, Øvre Slottsgate 3, 0157 Oslo (Stortinget metro stop) at the 5th floor
+enable_maps : false
+mapLatitude : 59.9124877
+mapLongitude: 10.7324465
+contactDetails :
+  - icon : tf-map-pin
+    info : "Øvre Slottsgate 3, 0157 Oslo, Norway"
+    
+#  - icon : tf-ion-ios-telephone-outline
+#    info : "Phone: +880-31-000-000"
+    
+  - icon : tf-ion-ios-email-outline
+    info : "Email: hei@weignite.tech"
+    
