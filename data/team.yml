@@ -54,3 +54,16 @@ teamMember :
         url : "#"
       - icon : tf-ion-social-linkedin
         url : "#"
+
+      
+  - image : images/team/erlend_st_324_324.png
+    name : Erlend Seppola
+    designation : Tech-coach
+    description : 
+    socialIcon :
+      - icon : tf-ion-social-facebook
+        url : "#"
+      - icon : tf-ion-social-twitter
+        url : "#"
+      - icon : tf-ion-social-linkedin
+        url : "#"
