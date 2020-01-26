@@ -13,7 +13,7 @@ filterList :
 
 portfolioItem :
   - types : financial
-    image : images/portfolio/portfolio-1-oslo-kommune_2.jpg
+    image : images/portfolio/portfolio-1-oxlo.jpg
     icon : tf-ion-android-search
     URL : https://www.oslo.kommune.no
     title : Oslo kommune
