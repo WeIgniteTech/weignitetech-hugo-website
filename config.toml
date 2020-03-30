@@ -63,6 +63,11 @@ author = "We Ignite Tech"
 googleAnalitycsID = "Your ID"
 custom_css = ["css/custom.css"]
 
+
+    # Main modal window for important messages
+    [params.mainmodalwindow]
+    enable = true
+
     # Banner Section
     [params.banner]
     enable = true

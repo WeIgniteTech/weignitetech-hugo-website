@@ -592,6 +592,22 @@ a:hover {
   background-attachment: fixed;
 }
 
+/*=================================================================
+  Main modal window
+==================================================================*/
+
+.wit-modal h5 {
+  color: #083769;
+}
+
+.wit-modal p {
+  color: #083769;
+}
+
+.wit-modal li a {
+  color: #007bff;
+}
+
 .hero-area {
   background-size: cover;
   height: 100vh;
@@ -615,6 +631,7 @@ a:hover {
   text-align: center;
   z-index: 99;
 }
+
 
 .hero-area .block .video-button {
   background: #fff;
